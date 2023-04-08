@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+#menu{
+
+    height: 80px; ;
+    padding: 0 20px;
+}
+
+#logo{
+    font-size: 40px;
+    line-height: 80px;
+    color: #ff00bf;
+    float: left;
+}
+
+nav{
+    float: right;
+    line-height: 80px;
+}
+
+nav a:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #ff00bf;
+}
+
+nav a:hover{
+    border-bottom: 2px solid #ff00bf;
+}
+
+nav a:visited{
+    ext-decoration: none;
+    margin-right: 25px;
+    color: #ff00bf;
+}
+
+.ikon {
+    margin-right: 7px;
+    font-size: 16px;
+}
+
+#Homepage{
+    height: 600px;
+    background-image: url(../img/essen.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+#black{
+    height: 600px;
+    background-color: black;
+    opacity: 0.3;
+}
+#inhalt {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+}
+
+#uber {
+    background-color: #faf9fa;
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font: weight 600px; ;
+
+}
+h3{
+    font-size: 55px;
+    color: #003666;
+    text-shadow: 0px 1px 1px;
+    font-weight: 600;
+}
+.container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+#link{
+float: left;
+border-right: 3px solid #445c6e;
+font-size: 30px;
+width: 400px;
+color: #445c6e;
+}
+
+#h5link{
+    line-height: 1.6;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#h5sol, #recht{
+    margin: 0;
+    padding:0 ;
+    margin-top: 20px;
+} 
+
+#L{
+    font-size: 50px;
+    margin-right: 7px ;
+    line-height: 42px;
+    color: #003666;
+    font-weight: 600px;
+    float: left;
+}
+#recht{
+    float: right;
+    width: 750px;
+    color: #827272;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.mt100{
+    margin-top: 100px;
+}
+#Rezepte{
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+    height: 700px;
+
+}
+.card{
+   width: 320px; 
+   height:380px;
+   border: 1px solid #ddd;
+   padding: 0;
+   display: inline-block;
+
+}
+.titelcard{
+    font-size: 15px;
+    color: #003666;
+}
+.card:hover{ 
+    border: 1px solid gray;
+}
+#rezeptEintragen{
+    background: url(../img/eintragen.jpg);
+    background-size: cover;
+    padding: 50px;
+    height: auto;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+#h3rezepteEintragen{
+    color: white;
+}
+#rezepttopak{
+    background: rgba(255,255,255,0.4);
+    padding: 30px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    height: 550px;
+    margin-top: 50px;
+}
+.form-control{
+    width: 80%;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1;
+    color: #495057;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid #ced4da ;
+
+}
+input[type="submit"]{
+    cursor: pointer;
+    background-color: #445;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#copyright{
+    color: black;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+#up{
+    color: white;
+    border: 1px solid white;
+    border-radius:50% ;
+    font-size: 15px;
+    padding: 9px 12px;
+    margin-top: 10px;
+}
